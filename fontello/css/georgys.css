@@ -1,10 +1,11 @@
 @font-face {
-  font-family: 'georgys19092015';
-  src: url('../font/georgys19092015.eot?27433232');
-  src: url('../font/georgys19092015.eot?27433232#iefix') format('embedded-opentype'),
-       url('../font/georgys19092015.woff?27433232') format('woff'),
-       url('../font/georgys19092015.ttf?27433232') format('truetype'),
-       url('../font/georgys19092015.svg?27433232#georgys19092015') format('svg');
+  font-family: 'georgys';
+  src: url('../font/georgys.eot?74824829');
+  src: url('../font/georgys.eot?74824829#iefix') format('embedded-opentype'),
+       url('../font/georgys.woff2?74824829') format('woff2'),
+       url('../font/georgys.woff?74824829') format('woff'),
+       url('../font/georgys.ttf?74824829') format('truetype'),
+       url('../font/georgys.svg?74824829#georgys') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -13,14 +14,14 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
-    font-family: 'georgys19092015';
-    src: url('../font/georgys19092015.svg?27433232#georgys19092015') format('svg');
+    font-family: 'georgys';
+    src: url('../font/georgys.svg?74824829#georgys') format('svg');
   }
 }
 */
  
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "georgys19092015";
+  font-family: "georgys";
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -56,12 +57,11 @@
  
 .icon-vkontakte:before { content: '\e800'; } /* '' */
 .icon-facebook-squared:before { content: '\e801'; } /* '' */
-.icon-quora:before { content: '\e802'; } /* '' */
+.icon-book-open:before { content: '\e802'; } /* '' */
 .icon-instagram:before { content: '\e803'; } /* '' */
-.icon-tumblr-squared:before { content: '\e804'; } /* '' */
+.icon-video:before { content: '\e804'; } /* '' */
 .icon-medium:before { content: '\e805'; } /* '' */
 .icon-stackoverflow:before { content: '\e806'; } /* '' */
 .icon-github-squared:before { content: '\e807'; } /* '' */
 .icon-me:before { content: '\e808'; } /* '' */
-.icon-thumbs-up-alt:before { content: '\e809'; } /* '' */
-.icon-linkedin-squared:before { content: '\e80a'; } /* '' */
+.icon-paper-plane:before { content: '\f1d8'; } /* '' */
