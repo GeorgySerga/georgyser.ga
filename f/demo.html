@@ -229,11 +229,11 @@ body {
 }
 @font-face {
       font-family: 'georgys';
-      src: url('./font/georgys.eot?42068403');
-      src: url('./font/georgys.eot?42068403#iefix') format('embedded-opentype'),
-           url('./font/georgys.woff?42068403') format('woff'),
-           url('./font/georgys.ttf?42068403') format('truetype'),
-           url('./font/georgys.svg?42068403#georgys') format('svg');
+      src: url('./font/georgys.eot?21982166');
+      src: url('./font/georgys.eot?21982166#iefix') format('embedded-opentype'),
+           url('./font/georgys.woff?21982166') format('woff'),
+           url('./font/georgys.ttf?21982166') format('truetype'),
+           url('./font/georgys.svg?21982166#georgys') format('svg');
       font-weight: normal;
       font-style: normal;
     }
@@ -275,7 +275,7 @@ body {
       /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
     }
      </style>
-    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/georgys-ie7.css"><![endif]-->
+    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/" + font.fontname + "-ie7.css"><![endif]-->
     <script>
       function toggleCodes(on) {
         var obj = document.getElementById('icons');
@@ -291,30 +291,22 @@ body {
   </head>
   <body>
     <div class="container header">
-      <h1>
-        georgys
-         <small>font demo</small>
-      </h1>
+      <h1>georgys <small>font demo</small></h1>
       <label class="switch">
         <input type="checkbox" onclick="toggleCodes(this.checked)">show codes
       </label>
     </div>
-    <div id="icons" class="container">
+    <div class="container" id="icons">
       <div class="row">
-        <div title="Code: 0xe800" class="the-icons span3"><i class="demo-icon icon-vkontakte">&#xe800;</i> <span class="i-name">icon-vkontakte</span><span class="i-code">0xe800</span></div>
-        <div title="Code: 0xe801" class="the-icons span3"><i class="demo-icon icon-facebook-squared">&#xe801;</i> <span class="i-name">icon-facebook-squared</span><span class="i-code">0xe801</span></div>
-        <div title="Code: 0xe802" class="the-icons span3"><i class="demo-icon icon-book-open">&#xe802;</i> <span class="i-name">icon-book-open</span><span class="i-code">0xe802</span></div>
-        <div title="Code: 0xe803" class="the-icons span3"><i class="demo-icon icon-instagram">&#xe803;</i> <span class="i-name">icon-instagram</span><span class="i-code">0xe803</span></div>
+        <div class="the-icons span3" title="Code: 0xe802"><i class="demo-icon icon-book-open">&#xe802;</i> <span class="i-name">icon-book-open</span><span class="i-code">0xe802</span></div>
+        <div class="the-icons span3" title="Code: 0xe804"><i class="demo-icon icon-video">&#xe804;</i> <span class="i-name">icon-video</span><span class="i-code">0xe804</span></div>
+        <div class="the-icons span3" title="Code: 0xe805"><i class="demo-icon icon-medium">&#xe805;</i> <span class="i-name">icon-medium</span><span class="i-code">0xe805</span></div>
+        <div class="the-icons span3" title="Code: 0xe806"><i class="demo-icon icon-stackoverflow">&#xe806;</i> <span class="i-name">icon-stackoverflow</span><span class="i-code">0xe806</span></div>
       </div>
       <div class="row">
-        <div title="Code: 0xe804" class="the-icons span3"><i class="demo-icon icon-video">&#xe804;</i> <span class="i-name">icon-video</span><span class="i-code">0xe804</span></div>
-        <div title="Code: 0xe805" class="the-icons span3"><i class="demo-icon icon-medium">&#xe805;</i> <span class="i-name">icon-medium</span><span class="i-code">0xe805</span></div>
-        <div title="Code: 0xe806" class="the-icons span3"><i class="demo-icon icon-stackoverflow">&#xe806;</i> <span class="i-name">icon-stackoverflow</span><span class="i-code">0xe806</span></div>
-        <div title="Code: 0xe807" class="the-icons span3"><i class="demo-icon icon-github-squared">&#xe807;</i> <span class="i-name">icon-github-squared</span><span class="i-code">0xe807</span></div>
-      </div>
-      <div class="row">
-        <div title="Code: 0xe808" class="the-icons span3"><i class="demo-icon icon-me">&#xe808;</i> <span class="i-name">icon-me</span><span class="i-code">0xe808</span></div>
-        <div title="Code: 0xf1d8" class="the-icons span3"><i class="demo-icon icon-paper-plane">&#xf1d8;</i> <span class="i-name">icon-paper-plane</span><span class="i-code">0xf1d8</span></div>
+        <div class="the-icons span3" title="Code: 0xe807"><i class="demo-icon icon-github-squared">&#xe807;</i> <span class="i-name">icon-github-squared</span><span class="i-code">0xe807</span></div>
+        <div class="the-icons span3" title="Code: 0xe808"><i class="demo-icon icon-me">&#xe808;</i> <span class="i-name">icon-me</span><span class="i-code">0xe808</span></div>
+        <div class="the-icons span3" title="Code: 0xf30c"><i class="demo-icon icon-linkedin-squared">&#xf30c;</i> <span class="i-name">icon-linkedin-squared</span><span class="i-code">0xf30c</span></div>
       </div>
     </div>
     <div class="container footer">Generated by <a href="http://fontello.com">fontello.com</a></div>

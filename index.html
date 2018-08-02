@@ -9,14 +9,20 @@
             background-color: #eee;
             color: #001f3f;
             font-family: avenir, Verdana;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 32em;
+            height: 100%;
+            margin: 0;
           }
           @font-face {
             font-family: 'georgys';
-            src: url('fontello/font/georgys.eot?42068403');
-            src: url('fontello/font/georgys.eot?42068403#iefix') format('embedded-opentype'),
-             url('fontello/font/georgys.woff?42068403') format('woff'),
-             url('fontello/font/georgys.ttf?42068403') format('truetype'),
-             url('fontello/font/georgys.svg?42068403#georgys') format('svg');
+            src: url('f/font/georgys.eot?42068403');
+            src: url('f/font/georgys.eot?42068403#iefix') format('embedded-opentype'),
+             url('f/font/georgys.woff?42068403') format('woff'),
+             url('f/font/georgys.ttf?42068403') format('truetype'),
+             url('f/font/georgys.svg?42068403#georgys') format('svg');
             font-weight: normal;
             font-style: normal;
           }
@@ -54,44 +60,24 @@
           .icon-medium:before { content: '\e805'; }
           .icon-stackoverflow:before { content: '\e806'; }
           .icon-github-squared:before { content: '\e807'; }
-          .icon-me:before { content: '\e808'; }
+          .icon-me:before { content: '\e808'; margin-left: 0; margin-right: 0; }
+          .icon-linkedin-square:before { content: '\f30c'; }
 
           .main-center-box {
-            position: absolute;
-            width: 640px;
-            height: 640px;
-            left: 50%;
-            top: 10%;
-            margin: 0 0 0 -320px;
+            width: 90%;
+            max-width: 40em;
             text-align: center;
           }
 
           .icon-me {
-            font-size: 200px;
-          }
-
-          .links {
-            margin: 0 auto;
-            font-size: 1.25em;
+            font-size: 12.5em;
           }
 
           .links a {
             color: inherit;
+            font-size: 1.25em;
             text-decoration: none;
-            display: inline;
             margin: 3px;
-          }
-
-          @media screen and (max-width: 660px) {
-            .main-center-box {
-              position: absolute;
-              width: 90%;
-              height: 90%;
-              margin: 0;
-              top: 10%;
-              left: 5%;
-              text-align: center;
-            }
           }
         </style>
     </head>
@@ -106,6 +92,7 @@
         <div class="links">
           <a href="https://github.com/GeorgySerga"><i class="icon-github-squared"></i></a>
           <a href="http://stackoverflow.com/users/4753661/georgy"><i class="icon-stackoverflow"></i></a>
+          <a href="https://www.linkedin.com/in/georgy-serga-8a8774147"><i class="icon-linkedin-square"></i></a>
           <a href="https://medium.com/@georgy.serga"><i class="icon-medium"></i></a>
           <a href="https://www.livelib.ru/reader/georgyserga"><i class="icon-book-open"></i></a>
           <a href="http://www.kinopoisk.ru/user/6650938"><i class="icon-video"></i></a>
